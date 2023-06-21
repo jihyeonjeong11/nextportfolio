@@ -96,14 +96,15 @@ const Navbar = () => {
               </li>
             </Link>
             <a href="/sample.pdf" target="_blank">
-              <motion.button
+              <MotionedDiv
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: delays.SIXTH }}
-                className="px-4 py-2 rounded-md text-text-green text-[13px] border border-text-green hover:bg-hover-color duration-300"
               >
-                <span>Resume</span>
-              </motion.button>
+                <button className="px-4 py-2 rounded-md text-text-green text-[13px] border border-text-green hover:bg-hover-color duration-300">
+                  <span>Resume</span>
+                </button>
+              </MotionedDiv>
             </a>
           </ul>
         </div>

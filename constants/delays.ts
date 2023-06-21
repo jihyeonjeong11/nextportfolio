@@ -8,6 +8,7 @@ const SIXTH = 0.5;
 const MAIN_FIRST = 0.6;
 const MAIN_SECOND = 0.7;
 const MAIN_THIRD = 0.8;
+const MAIN_FOURTH = 0.9;
 
 const SIDE = 1.5;
 
@@ -22,4 +23,5 @@ export {
   MAIN_THIRD,
   SIDE,
   SIXTH,
+  MAIN_FOURTH,
 };

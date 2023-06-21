@@ -4,6 +4,7 @@ import RightSide from '@/components/rightSide';
 import MotionedDiv from '@/components/common/framer/MotionedDiv';
 import Banner from '@/components/middleSide/banner';
 import * as delays from '@/constants/delays';
+import About from '@/components/middleSide/about';
 
 export const metadata = {
   title: 'JIHYEON JEONG',
@@ -25,6 +26,7 @@ export default function Home() {
         </MotionedDiv>
         <div className="h-[88vh] w-full mx-auto p-4">
           <Banner />
+          <About />
         </div>
         <MotionedDiv
           initial={{ opacity: 0 }}

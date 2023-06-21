@@ -1,5 +1,7 @@
-import MotionedDiv from '@/components/common/framer/MotionedDiv';
 import React from 'react';
+
+import MotionedDiv from '@/components/common/framer/MotionedDiv';
+
 import * as delays from '@/constants/delays';
 
 const Banner = () => {
@@ -48,9 +50,15 @@ const Banner = () => {
           </span>
         </a>
       </MotionedDiv>
-      <button className="w-52 h-14 text-sm font-titleFont border border-text-green rounded-md text-text-green tracking-wide hover:bg-hover-color duration-300">
-        Check out my projects
-      </button>
+      <MotionedDiv
+        initial={{ y: 10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, delay: delays.MAIN_FOURTH }}
+      >
+        <button className="w-52 h-14 text-sm font-titleFont border border-text-green rounded-md text-text-green tracking-wide hover:bg-hover-color duration-300">
+          Check out my projects
+        </button>
+      </MotionedDiv>
     </section>
   );
 };
