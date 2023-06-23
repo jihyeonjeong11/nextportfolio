@@ -6,9 +6,7 @@
     "dev": "next dev",
     "start": "next start",
     "lint": "next lint",
-    "build": "next build && next export",
-    "predeploy": "npm run build",
-    "deploy": "touch out/.nojekyll && gh-pages -d out --dotfiles"
+    "build": "next build"
   },
   "dependencies": {
     "@types/node": "20.3.1",
@@ -18,7 +16,6 @@
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.5",
     "framer-motion": "^10.12.16",
-    "gh-pages": "^5.0.0",
     "next": "13.4.5",
     "postcss": "8.4.24",
     "react": "18.2.0",
