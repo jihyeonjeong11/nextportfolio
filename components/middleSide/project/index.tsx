@@ -7,6 +7,7 @@ import patientSynthImg from '@/public/images/patientSynthImg.png';
 import flyingcatImg from '@/public/images/flyingcat.jpeg';
 import babygoImg from '@/public/images/babygo.jpeg';
 import Link from 'next/link';
+import { parseGPTToJSON } from '@/temp';
 
 const Project = () => {
   return (

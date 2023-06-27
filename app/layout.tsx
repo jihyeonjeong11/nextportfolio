@@ -1,5 +1,7 @@
 import './globals.css';
 import { inter } from '@/components/common/fonts';
+import Providers from './themeprovider';
+import ThemeSwitcher from './themeswitcher';
 
 export const metadata = {
   title: 'Create Next App',
@@ -13,7 +15,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <Providers>
+          <ThemeSwitcher />
+          {children}
+        </Providers>
+      </body>
     </html>
   );
 }

@@ -32,11 +32,16 @@ module.exports = {
       colors: {
         'body-color': '#0a192f',
         'text-green': '#64ffda',
-        'text-light': '#ccd6f6',
+        'text-grey': '#ccd6f6',
         'text-dark': '#8892b0',
         'hover-color': 'rgba(100,255,218,0.1)',
+        'color-white': 'ffffff',
+        'body-color-light': '#fbbf77',
+        'hover-color-light': '#ffffff',
+        'text-light': '#070606',
       },
     },
   },
+  darkMode: 'class',
   plugins: [],
 };

@@ -7,6 +7,7 @@ import * as delays from '@/constants/delays';
 import About from '@/components/middleSide/about';
 import Experience from '@/components/middleSide/experience';
 import Project from '@/components/middleSide/project';
+import Post from '@/components/middleSide/post';
 
 export const metadata = {
   title: 'JIHYEON JEONG',
@@ -15,7 +16,7 @@ export const metadata = {
 
 export default function Home() {
   return (
-    <main className="w-full h-screen bg-body-color text-text-light overflow-x-hidden overflow-y-scroll">
+    <main className="bg-hover-color-light w-full h-screen dark:bg-body-color text-text-grey overflow-x-hidden overflow-y-scroll">
       <Navbar />
       <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
         <MotionedDiv
@@ -31,6 +32,7 @@ export default function Home() {
           <About />
           <Experience />
           <Project />
+          <Post />
         </div>
         <MotionedDiv
           initial={{ opacity: 0 }}

@@ -24,7 +24,7 @@ const Banner = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: delays.MAIN_SECOND }}
       >
-        <h1 className="text-4xl lgl:text-6xl font-title-fond font-semibold flex flex-col">
+        <h1 className="text-4xl lgl:text-6xl font-title-fonㅅ font-semibold flex flex-col">
           JIHYEON JEONG.{' '}
           <span className="text-text-dark mt-2 lgl:mt-4">
             I build things for the web.
