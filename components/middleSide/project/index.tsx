@@ -30,19 +30,25 @@ const Project = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
-              <p className="font-title-font text-text-green text-sm tracking-wide">
+              <p className="text-text-light dark:text-text-green font-title-font text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">PatientSynth & SIMPREC</h3>
+              <h3 className="text-text-light dark:text-text-green text-2xl font-bold">
+                PatientSynth & SIMPREC
+              </h3>
             </div>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
               An patient information generator and medical-exam manager powered
-              by <span className="text-text-green"> OpenAi GPT 4.0</span>{' '}
+              by{' '}
+              <span className="text-text-light dark:text-text-green">
+                {' '}
+                OpenAi GPT 4.0
+              </span>{' '}
               engine. Refactoring Jquery codebase to modern features such as
               Service Worker, Centralized state management, WebRTC, WebSocket
               and much more.
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between ">
               <li>Vue3</li>
               <li>React</li>
               <li>Typescript</li>
@@ -50,7 +56,7 @@ const Project = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <Link
-                className="hover:text-text-green duration-300"
+                className="hover:text-body-color-light dark:hover:text-text-green duration-300"
                 href="https://ps.simprec.kr"
                 target="_blank"
               >
@@ -77,19 +83,21 @@ const Project = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6  items-end text-right xl:-ml-16 z-10">
             <div>
-              <p className="font-title-font text-text-green text-sm tracking-wide">
+              <p className="font-title-font text-text-light dark:text-text-green text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">애기야가자</h3>
+              <h3 className="text-text-light dark:text-text-green text-2xl font-bold">
+                애기야가자
+              </h3>
             </div>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240]  text-sm md:text-base p-2 md:p-6 rounded-md">
               Hybrid mobile app project for visualizing personalized places to
               visit for family. Creating ID card for children and getting
               recommended top places via big data, user reviews, recently
               popular places and detailed info uploaded by business owner
               themselves.
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between">
               <li>React-Native</li>
               <li>Typescript</li>
               <li>Django</li>
@@ -99,7 +107,7 @@ const Project = () => {
             </ul>
             <div className="text-2xl flex gap-4">
               <Link
-                className="hover:text-text-green duration-300"
+                className="hover:text-body-color-light dark:hover:text-text-green duration-300"
                 href="https://babygo.kr/"
                 target="_blank"
               >
@@ -126,17 +134,19 @@ const Project = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6  items-end text-right xl:-ml-16 z-10">
             <div>
-              <p className="font-title-font text-text-green text-sm tracking-wide">
+              <p className="font-title-font text-text-light dark:text-text-green text-sm tracking-wide">
                 Featured Project
               </p>
-              <h3 className="text-2xl font-bold">CrunchPrice</h3>
+              <h3 className="text-text-light dark:text-text-green text-2xl font-bold">
+                CrunchPrice
+              </h3>
             </div>
-            <p className="bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240]  text-sm md:text-base p-2 md:p-6 rounded-md">
               Hybrid E-commerce mobile app and web app. Show featured products
               categorized by brand, show merchandise detail, handling shopping
               cart and purchase.
             </p>
-            <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark">
+            <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between">
               <li>React-Native</li>
               <li>React</li>
               <li>Django</li>

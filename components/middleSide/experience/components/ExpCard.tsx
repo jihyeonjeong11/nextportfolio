@@ -17,16 +17,18 @@ const ExpCard = ({ expType }: { expType: (typeof experiences)[0] }) => {
           transition={{ delay: 0.1 }}
           className="w-full"
         >
-          <h3 className="flex gap-1 font-medium text-xl font-title-font">
+          <h3 className="text-text-light dark:text-text-dark flex gap-1 font-medium text-xl font-title-font">
             Frontend Lead{' '}
-            <span className="text-text-green tracking-wide">@Ibstech</span>
+            <span className="text-body-color-light dark:text-text-green tracking-wide">
+              @Ibstech
+            </span>
           </h3>
           <p className="text-sm mt-1 font-medium text-text-dark">
             Oct 2022 - June 2023
           </p>
           <ul className="mt-6 flex flex-col gap-3">
-            <li className="text-base flex gap-2 text-text-dark">
-              <span className="text-text-green mt-1">
+            <li className="text-base flex gap-2 text-text-light dark:text-text-dark">
+              <span className="mt-1 dark:text-text-green text-body-color-light">
                 <TiArrowForward />
               </span>
               <p>
@@ -48,16 +50,18 @@ const ExpCard = ({ expType }: { expType: (typeof experiences)[0] }) => {
           transition={{ delay: 0.1 }}
           className="w-full"
         >
-          <h3 className="flex gap-1 font-medium text-xl font-title-font">
+          <h3 className="text-text-light dark:text-text-dark flex gap-1 font-medium text-xl font-title-font">
             Development Lead{' '}
-            <span className="text-text-green tracking-wide">@애기야가자</span>
+            <span className="text-body-color-light dark:text-text-green tracking-wide">
+              @애기야가자
+            </span>
           </h3>
           <p className="text-sm mt-1 font-medium text-text-dark">
             Jan 2021 - May 2022
           </p>
           <ul className="mt-6 flex flex-col gap-3">
-            <li className="text-base flex gap-2 text-text-dark">
-              <span className="text-text-green mt-1">
+            <li className="text-base flex gap-2 text-text-light dark:text-text-dark">
+              <span className="mt-1 dark:text-text-green text-body-color-light">
                 <TiArrowForward />
               </span>
               <p>
@@ -66,19 +70,31 @@ const ExpCard = ({ expType }: { expType: (typeof experiences)[0] }) => {
                 app UI structure. Provided leadership with team toward same
                 goal, {`"Get things done"`} achieving launching new services and
                 features with timely manner,s including{' '}
-                <span className="text-text-green">Child ID card</span>,{' '}
-                <span className="text-text-green">
+                <span className="dark:text-text-green text-body-color-light">
+                  Child ID card
+                </span>
+                ,{' '}
+                <span className="dark:text-text-green text-body-color-light">
                   User content forum system
                 </span>
                 ,{' '}
-                <span className="text-text-green">
+                <span className="dark:text-text-green text-body-color-light">
                   Place-suggesting feature
                 </span>{' '}
                 through Bigdata collection powered by Google Bigquery and
                 various collaboration features with{' '}
-                <span className="text-text-green">밴더스터</span>,{' '}
-                <span className="text-text-green">더핑크퐁컴퍼니</span>,{' '}
-                <span className="text-text-green">한화생명</span> and more.
+                <span className="dark:text-text-green text-body-color-light">
+                  밴더스터
+                </span>
+                ,{' '}
+                <span className="dark:text-text-green text-body-color-light">
+                  더핑크퐁컴퍼니
+                </span>
+                ,{' '}
+                <span className="dark:text-text-green text-body-color-light">
+                  한화생명
+                </span>{' '}
+                and more.
               </p>
             </li>
           </ul>
@@ -93,9 +109,9 @@ const ExpCard = ({ expType }: { expType: (typeof experiences)[0] }) => {
           transition={{ delay: 0.1 }}
           className="w-full"
         >
-          <h3 className="flex gap-1 font-medium text-xl font-title-font">
+          <h3 className="text-text-light dark:text-text-dark flex gap-1 font-medium text-xl font-title-font">
             Frontend developer{' '}
-            <span className="text-text-green tracking-wide">
+            <span className="text-body-color-light dark:text-text-green tracking-wide">
               @CrunchCompany
             </span>
           </h3>
@@ -103,8 +119,8 @@ const ExpCard = ({ expType }: { expType: (typeof experiences)[0] }) => {
             May 2019 - Aug 2020
           </p>
           <ul className="mt-6 flex flex-col gap-3">
-            <li className="text-base flex gap-2 text-text-dark">
-              <span className="text-text-green mt-1">
+            <li className="text-base flex gap-2 text-text-light dark:text-text-dark">
+              <span className="mt-1 dark:text-text-green text-body-color-light">
                 <TiArrowForward />
               </span>
               Developed, maintained E-commerce app and web app.

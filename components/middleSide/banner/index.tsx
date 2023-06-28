@@ -15,7 +15,7 @@ const Banner = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: delays.MAIN_FIRST }}
       >
-        <h3 className="text-lg font-monsterrat tracking-wide text-text-green">
+        <h3 className="text-text-light dark:text-text-green text-lg font-monsterrat tracking-wide ">
           Hi, my name is
         </h3>
       </MotionedDiv>
@@ -24,9 +24,9 @@ const Banner = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: delays.MAIN_SECOND }}
       >
-        <h1 className="text-4xl lgl:text-6xl font-title-fonㅅ font-semibold flex flex-col">
+        <h1 className="text-text-light dark:text-text-dark text-4xl lgl:text-6xl font-title-font font-semibold flex flex-col">
           JIHYEON JEONG.{' '}
-          <span className="text-text-dark mt-2 lgl:mt-4">
+          <span className="text-body-color-light dark:text-text-dark mt-2 lgl:mt-4">
             I build things for the web.
           </span>
         </h1>
@@ -36,7 +36,7 @@ const Banner = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: delays.MAIN_THIRD }}
       >
-        <p className="text-base md:max-w-[650px] text-text-dark font-medium">
+        <p className="text-text-light dark:text-text-dark text-base md:max-w-[650px]  font-medium">
           {' '}
           I am a web developer with 3+ years of experience in React. I have a
           strong foundation in front-end & back-end development and am skilled
@@ -44,9 +44,9 @@ const Banner = () => {
           and its ecosystem.
         </p>
         <a href="https://github.com/jihyeonjeong11">
-          <span className="text-text-green inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
+          <span className="text-body-color-light dark:text-text-green inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn more
-            <span className="absolute w-full h-[1px] bg-text-green left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
+            <span className="bg-text-light dark:bg-text-green absolute w-full h-[1px] left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
           </span>
         </a>
       </MotionedDiv>
@@ -55,7 +55,7 @@ const Banner = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: delays.MAIN_FOURTH }}
       >
-        <button className="w-52 h-14 text-sm font-titleFont border border-text-green rounded-md text-text-green tracking-wide hover:bg-hover-color duration-300">
+        <button className="border-text-light text-text-light hover:text-body-color-light dark:border-text-green dark:text-text-green dark:hover:bg-hover-color w-52 h-14 text-sm font-titleFont border rounded-md tracking-wide duration-300">
           Check out my projects
         </button>
       </MotionedDiv>

@@ -1,12 +1,13 @@
+'use client';
+
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 
-import { logo } from '@/components/common/icons';
 import { montserrat } from '@/components/common/fonts';
 import MotionedDiv from '@/components/common/framer/MotionedDiv';
 
 import * as delays from '@/constants/delays';
+import ThemeSwitcher from '@/app/theme-switcher';
 
 const Navbar = () => {
   return (
@@ -19,7 +20,7 @@ const Navbar = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
-          <Image className="w-14 bg-white" src={logo} alt="logo" />
+          <ThemeSwitcher />
         </MotionedDiv>
 
         <div className="hidden mdl:inline-flex items-center gap-7">

@@ -12,6 +12,8 @@ To do in future
 
 [] set up github action to CI/CD to Vercel
 
+[] persistent dark mod value?(nextjs13 support?)
+
 Portfolio project for frontend dev JIHYEON JEONG
 
 Powered by NextJS latest(v13)

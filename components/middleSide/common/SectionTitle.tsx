@@ -8,8 +8,8 @@ const SectionTitle = ({
   titleNo: string;
 }) => {
   return (
-    <h2 className="font-title-font text-2xl font-semibold flex items-center">
-      <span className="text-base md:text-lg text-text-green mr-2">
+    <h2 className="text-text-light dark:text-text-dark font-title-font text-2xl font-semibold flex items-center">
+      <span className="text-body-color-light dark:text-text-green text-base md:text-lg mr-2">
         {titleNo}.
       </span>{' '}
       {title}
