@@ -2,7 +2,9 @@
 import { useState, useEffect, useMemo } from 'react';
 import { useTheme } from 'next-themes';
 import { BsSun, BsMoon } from 'react-icons/bs';
-import { motion, useAnimate } from 'framer-motion';
+import { useAnimate, useAnimationFrame } from 'framer-motion';
+
+import MotionedDiv from '@/components/common/framer/MotionedDiv';
 
 const ThemeSwitcher = () => {
   const { theme, setTheme } = useTheme();
@@ -24,32 +26,28 @@ const ThemeSwitcher = () => {
 
   return (
     <div className="w-10 h-10 flex items-center justify-center">
-      {theme === 'light' ? (
-        <motion.button
-          ref={scope}
-          onClick={() =>
-            handleThemeChange(theme === 'light' ? 'dark' : 'light')
-          }
+      {theme !== 'dark' ? (
+        <MotionedDiv
           initial={{ opacity: 0, rotate: -120 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.05 }}
           className="text-white hover:text-text-light dark:hover:text-text-green duration-300"
         >
-          <BsSun size="25" />
-        </motion.button>
+          <button ref={scope} onClick={() => handleThemeChange('dark')}>
+            <BsSun size="25" />
+          </button>
+        </MotionedDiv>
       ) : (
-        <motion.button
-          ref={scope}
-          onClick={() =>
-            handleThemeChange(theme === 'light' ? 'dark' : 'light')
-          }
+        <MotionedDiv
           initial={{ opacity: 0, rotate: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 0.05 }}
           className="text-white hover:text-text-light dark:hover:text-text-green duration-300"
         >
-          <BsMoon size="25" />
-        </motion.button>
+          <button ref={scope} onClick={() => handleThemeChange('light')}>
+            <BsMoon size="25" />
+          </button>
+        </MotionedDiv>
       )}
     </div>
   );

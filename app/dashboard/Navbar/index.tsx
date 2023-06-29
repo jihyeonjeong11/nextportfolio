@@ -8,6 +8,7 @@ import MotionedDiv from '@/components/common/framer/MotionedDiv';
 
 import * as delays from '@/constants/delays';
 import ThemeSwitcher from '@/app/theme-switcher';
+import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
 
 const Navbar = () => {
   return (

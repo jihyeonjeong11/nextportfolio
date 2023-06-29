@@ -4,7 +4,8 @@ import MotionedDiv from '@/components/common/framer/MotionedDiv';
 
 import * as delays from '@/constants/delays';
 
-const Banner = () => {
+const Banner = ({ props, ref }) => {
+  console.log('props', props, ref);
   return (
     <section
       id="home"
@@ -63,4 +64,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default React.forwardRef(Banner);
