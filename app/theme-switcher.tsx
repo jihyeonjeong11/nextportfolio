@@ -33,7 +33,11 @@ const ThemeSwitcher = () => {
           transition={{ delay: 0.05 }}
           className="text-white hover:text-text-light dark:hover:text-text-green duration-300"
         >
-          <button ref={scope} onClick={() => handleThemeChange('dark')}>
+          <button
+            aria-label="light"
+            ref={scope}
+            onClick={() => handleThemeChange('dark')}
+          >
             <BsSun size="25" />
           </button>
         </MotionedDiv>
@@ -44,7 +48,11 @@ const ThemeSwitcher = () => {
           transition={{ delay: 0.05 }}
           className="text-white hover:text-text-light dark:hover:text-text-green duration-300"
         >
-          <button ref={scope} onClick={() => handleThemeChange('light')}>
+          <button
+            aria-label="dark"
+            ref={scope}
+            onClick={() => handleThemeChange('light')}
+          >
             <BsMoon size="25" />
           </button>
         </MotionedDiv>

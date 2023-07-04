@@ -31,12 +31,12 @@ const Navbar = () => {
         </MotionedDiv>
         <div className="hidden mdl:inline-flex items-center gap-7">
           <ul className="flex text-[17px] gap-7 text-text-light dark:text-text-dark">
-            <a
-              aria-label="to-home"
-              className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
-              href="#home"
-            >
-              <li>
+            <li>
+              <a
+                aria-label="to-home"
+                className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
+                href="#home"
+              >
                 <MotionedDiv
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -44,14 +44,14 @@ const Navbar = () => {
                 >
                   <span>Home</span>
                 </MotionedDiv>
-              </li>
-            </a>
-            <a
-              aria-label="to-about"
-              className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
-              href="#about"
-            >
-              <li>
+              </a>
+            </li>
+            <li>
+              <a
+                aria-label="to-about"
+                className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
+                href="#about"
+              >
                 <MotionedDiv
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -59,14 +59,14 @@ const Navbar = () => {
                 >
                   <span>01. About</span>
                 </MotionedDiv>
-              </li>
-            </a>
-            <a
-              aria-label="to-experience"
-              className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
-              href="#experience"
-            >
-              <li>
+              </a>
+            </li>
+            <li>
+              <a
+                aria-label="to-experience"
+                className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
+                href="#experience"
+              >
                 <MotionedDiv
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -74,14 +74,14 @@ const Navbar = () => {
                 >
                   <span>03. Experience</span>
                 </MotionedDiv>
-              </li>
-            </a>
-            <a
-              aria-label="to-project"
-              className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
-              href="#project"
-            >
-              <li>
+              </a>
+            </li>
+            <li>
+              <a
+                aria-label="to-project"
+                className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
+                href="#project"
+              >
                 <MotionedDiv
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -89,14 +89,14 @@ const Navbar = () => {
                 >
                   <span>04. Projects</span>
                 </MotionedDiv>
-              </li>
-            </a>
-            <a
-              aria-label="to-contact"
-              className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
-              href="#contact"
-            >
-              <li>
+              </a>
+            </li>
+            <li>
+              <a
+                aria-label="to-contact"
+                className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
+                href="#contact"
+              >
                 <MotionedDiv
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -104,8 +104,8 @@ const Navbar = () => {
                 >
                   <span>05. Contacts</span>
                 </MotionedDiv>
-              </li>
-            </a>
+              </a>
+            </li>
             {/* <a href="/sample.pdf" target="_blank">
               <MotionedDiv
                 initial={{ opacity: 0 }}

@@ -10,14 +10,6 @@ import Project from '@/components/middleSide/project';
 import Post from '@/components/middleSide/post';
 import Contact from '@/components/middleSide/contact';
 
-export const metadata = {
-  title: 'JIHYEON JEONG',
-  description: 'frontend dev',
-  icons: {
-    icon: [{ url: '/icons/logo.svg' }],
-  },
-};
-
 export default function Home() {
   return (
     <main className="scroll-smooth bg-hover-color-light w-full h-screen dark:bg-body-color text-text-grey overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-text-dark/20 scrollbar-thumb-text-dark/60">
