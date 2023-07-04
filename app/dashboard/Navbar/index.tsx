@@ -32,6 +32,7 @@ const Navbar = () => {
         <div className="hidden mdl:inline-flex items-center gap-7">
           <ul className="flex text-[17px] gap-7 text-text-light dark:text-text-dark">
             <a
+              aria-label="to-home"
               className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
               href="#home"
             >
@@ -46,6 +47,7 @@ const Navbar = () => {
               </li>
             </a>
             <a
+              aria-label="to-about"
               className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
               href="#about"
             >
@@ -60,6 +62,7 @@ const Navbar = () => {
               </li>
             </a>
             <a
+              aria-label="to-experience"
               className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
               href="#experience"
             >
@@ -74,6 +77,7 @@ const Navbar = () => {
               </li>
             </a>
             <a
+              aria-label="to-project"
               className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
               href="#project"
             >
@@ -88,6 +92,7 @@ const Navbar = () => {
               </li>
             </a>
             <a
+              aria-label="to-contact"
               className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
               href="#contact"
             >
@@ -116,6 +121,7 @@ const Navbar = () => {
         </div>
         {/* mobile icons section */}
         <button
+          aria-label="mobile-menu"
           onClick={() => setIsOpen(true)}
           className="text-text-light w-6 h-5 flex flex-col justify-between items-center mdl:hidden
           text-4xl dark:text-text-green cursor-pointer overflow-hidden group

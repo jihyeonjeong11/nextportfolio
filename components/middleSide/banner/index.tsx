@@ -43,7 +43,7 @@ const Banner = () => {
           in creating user-friendly and responsive web applications using React
           and its ecosystem.
         </p>
-        <a href="https://github.com/jihyeonjeong11">
+        <a aria-label="to-github" href="https://github.com/jihyeonjeong11">
           <span className="text-body-color-light dark:text-text-green inline-flex relative cursor-pointer h-7 overflow-x-hidden group">
             Learn more
             <span className="bg-text-light dark:bg-text-green absolute w-full h-[1px] left-0 bottom-1 -translate-x-[110%] group-hover:translate-x-0 transition-transform duration-500"></span>
@@ -55,8 +55,11 @@ const Banner = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: delays.MAIN_FOURTH }}
       >
-        <a href="#project">
-          <button className="border-text-light text-text-light hover:text-body-color-light dark:border-text-green dark:text-text-green dark:hover:bg-hover-color w-52 h-14 text-sm font-titleFont border rounded-md tracking-wide duration-300">
+        <a aria-label="to-project" href="#project">
+          <button
+            aria-label="banner-project"
+            className="border-text-light text-text-light hover:text-body-color-light dark:border-text-green dark:text-text-green dark:hover:bg-hover-color w-52 h-14 text-sm font-titleFont border rounded-md tracking-wide duration-300"
+          >
             Check out my projects
           </button>
         </a>

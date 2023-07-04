@@ -46,6 +46,7 @@ export default function MyDialog({
             <div className="flex flex-col items-center gap-7">
               <ul className="flex flex-col text-base gap-7">
                 <a
+                  aria-label="mobile-to-home"
                   className="flex items-center gap-1 font-medium text-text-light hover:text-white dark:text-text-dark dark:hover:text-text-green cursor-pointer duration-300 nav-link"
                   href="#home"
                 >
@@ -62,6 +63,7 @@ export default function MyDialog({
                   </MotionedDiv>
                 </a>
                 <a
+                  aria-label="mobile-to-about"
                   className="flex items-center gap-1 font-medium text-text-light hover:text-white dark:text-text-dark dark:hover:text-text-green cursor-pointer duration-300 nav-link"
                   href="#about"
                 >
@@ -84,6 +86,7 @@ export default function MyDialog({
                   </MotionedDiv>
                 </a>
                 <a
+                  aria-label="mobile-to-experience"
                   className="flex items-center gap-1 font-medium text-text-light hover:text-white dark:text-text-dark dark:hover:text-text-green cursor-pointer duration-300 nav-link"
                   href="#experience"
                 >
@@ -106,6 +109,7 @@ export default function MyDialog({
                   </MotionedDiv>
                 </a>
                 <a
+                  aria-label="mobile-to-project"
                   className="flex items-center gap-1 font-medium text-text-light hover:text-white dark:text-text-dark dark:hover:text-text-green cursor-pointer duration-300 nav-link"
                   href="#project"
                 >
@@ -128,6 +132,7 @@ export default function MyDialog({
                   </MotionedDiv>
                 </a>
                 <a
+                  aria-label="mobile-to-contact"
                   className="flex items-center gap-1 font-medium text-text-light hover:text-white dark:text-text-dark dark:hover:text-text-green cursor-pointer duration-300 nav-link"
                   href="#contact"
                 >
