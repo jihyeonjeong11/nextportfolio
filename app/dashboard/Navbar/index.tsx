@@ -1,18 +1,24 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
 
 import { montserrat } from '@/components/common/fonts';
 import MotionedDiv from '@/components/common/framer/MotionedDiv';
 
 import * as delays from '@/constants/delays';
 import ThemeSwitcher from '@/app/theme-switcher';
-import { useIntersectionObserver } from '@/hooks/useIntersectionObserver';
+import MyDialog from '@/components/common/modal';
 
 const Navbar = () => {
+  const [mounted, setMounted] = React.useState(false);
+  const [isOpen, setIsOpen] = React.useState(false);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
+
   return (
-    <div className="bg-body-color-light dark:bg-body-color w-full shadow-navbar-shadow h-20 lg:h-[12vh] sticky top-0 z-50  px-4">
+    <div className="bg-body-color-light dark:bg-body-color w-full shadow-navbar-shadow h-20 lg:h-[12vh] sticky top-0 z-10 px-4">
       <div
         className={`max-w-screen h-full mx-auto py-1 flex items-center justify-between ${montserrat.className}`}
       >
@@ -23,10 +29,9 @@ const Navbar = () => {
         >
           <ThemeSwitcher />
         </MotionedDiv>
-
         <div className="hidden mdl:inline-flex items-center gap-7">
           <ul className="flex text-[17px] gap-7 text-text-light dark:text-text-dark">
-            <Link
+            <a
               className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
               href="#home"
             >
@@ -39,10 +44,10 @@ const Navbar = () => {
                   <span>Home</span>
                 </MotionedDiv>
               </li>
-            </Link>
-            <Link
+            </a>
+            <a
               className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
-              href="#home"
+              href="#about"
             >
               <li>
                 <MotionedDiv
@@ -53,8 +58,8 @@ const Navbar = () => {
                   <span>01. About</span>
                 </MotionedDiv>
               </li>
-            </Link>
-            <Link
+            </a>
+            <a
               className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
               href="#experience"
             >
@@ -67,10 +72,10 @@ const Navbar = () => {
                   <span>03. Experience</span>
                 </MotionedDiv>
               </li>
-            </Link>
-            <Link
+            </a>
+            <a
               className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
-              href="#projects"
+              href="#project"
             >
               <li>
                 <MotionedDiv
@@ -81,10 +86,10 @@ const Navbar = () => {
                   <span>04. Projects</span>
                 </MotionedDiv>
               </li>
-            </Link>
-            <Link
+            </a>
+            <a
               className="hover:text-hover-color-light dark:hover:text-text-green flex items-center gap-1 font-medium cursor-pointer duration-300 nav-link"
-              href="#Contacts"
+              href="#contact"
             >
               <li>
                 <MotionedDiv
@@ -95,8 +100,8 @@ const Navbar = () => {
                   <span>05. Contacts</span>
                 </MotionedDiv>
               </li>
-            </Link>
-            <a href="/sample.pdf" target="_blank">
+            </a>
+            {/* <a href="/sample.pdf" target="_blank">
               <MotionedDiv
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -106,20 +111,22 @@ const Navbar = () => {
                   <span>Resume</span>
                 </button>
               </MotionedDiv>
-            </a>
+            </a> */}
           </ul>
         </div>
         {/* mobile icons section */}
-        <div
+        <button
+          onClick={() => setIsOpen(true)}
           className="text-text-light w-6 h-5 flex flex-col justify-between items-center mdl:hidden
           text-4xl dark:text-text-green cursor-pointer overflow-hidden group
         "
         >
-          <span className="w-full h-[2px] bg-text-green inline-flex transform group-hover:translate-x-2 duration-300 transition-all ease-in-out"></span>
-          <span className="w-full h-[2px] bg-text-green inline-flex transform translate-x-3 group-hover:translate-x-0 duration-300 transition-all ease-in-out"></span>
-          <span className="w-full h-[2px] bg-text-green inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
-        </div>
+          <span className="w-full h-[2px] bg-text-light dark:bg-text-green inline-flex transform group-hover:translate-x-2 duration-300 transition-all ease-in-out"></span>
+          <span className="w-full h-[2px] bg-text-light dark:bg-text-green inline-flex transform translate-x-3 group-hover:translate-x-0 duration-300 transition-all ease-in-out"></span>
+          <span className="w-full h-[2px] bg-text-light dark:bg-text-green inline-flex transform translate-x-1 group-hover:translate-x-3 transition-all ease-in-out duration-300"></span>
+        </button>
       </div>
+      <MyDialog isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   );
 };

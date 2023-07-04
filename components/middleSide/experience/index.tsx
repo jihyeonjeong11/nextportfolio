@@ -33,9 +33,7 @@ const Experience = () => {
             </li>
           ))}
         </ul>
-        {switchState === 'Ibstech' && <ExpCard expType={switchState} />}
-        {switchState === '애기야가자' && <ExpCard expType={switchState} />}
-        {switchState === 'CrunchCompany' && <ExpCard expType={switchState} />}
+        {switchState && <ExpCard expType={switchState} key={switchState} />}
       </div>
     </section>
   );

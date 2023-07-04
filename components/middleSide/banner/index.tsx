@@ -4,8 +4,7 @@ import MotionedDiv from '@/components/common/framer/MotionedDiv';
 
 import * as delays from '@/constants/delays';
 
-const Banner = ({ props, ref }) => {
-  console.log('props', props, ref);
+const Banner = () => {
   return (
     <section
       id="home"
@@ -56,12 +55,14 @@ const Banner = ({ props, ref }) => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: delays.MAIN_FOURTH }}
       >
-        <button className="border-text-light text-text-light hover:text-body-color-light dark:border-text-green dark:text-text-green dark:hover:bg-hover-color w-52 h-14 text-sm font-titleFont border rounded-md tracking-wide duration-300">
-          Check out my projects
-        </button>
+        <a href="#project">
+          <button className="border-text-light text-text-light hover:text-body-color-light dark:border-text-green dark:text-text-green dark:hover:bg-hover-color w-52 h-14 text-sm font-titleFont border rounded-md tracking-wide duration-300">
+            Check out my projects
+          </button>
+        </a>
       </MotionedDiv>
     </section>
   );
 };
 
-export default React.forwardRef(Banner);
+export default Banner;

@@ -17,7 +17,7 @@ const Project = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
+            href="https://ps.simprec.kr"
             target="_blank"
           >
             <div>
@@ -28,7 +28,7 @@ const Project = () => {
               />
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-5">
             <div>
               <p className="text-text-light dark:text-text-green font-title-font text-sm tracking-wide">
                 Featured Project
@@ -57,7 +57,7 @@ const Project = () => {
             <div className="text-2xl flex gap-4">
               <Link
                 className="hover:text-body-color-light dark:hover:text-text-green duration-300"
-                href="https://ps.simprec.kr"
+                href="https://babygo.kr"
                 target="_blank"
               >
                 <BiLink />
@@ -70,7 +70,7 @@ const Project = () => {
         <div className="flex flex-col xl:flex-row gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
+            href="https://babygo.kr"
             target="_blank"
           >
             <div>
@@ -81,7 +81,7 @@ const Project = () => {
               />
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6  items-end text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-6  items-end text-right xl:-ml-16 z-5">
             <div>
               <p className="font-title-font text-text-light dark:text-text-green text-sm tracking-wide">
                 Featured Project
@@ -119,11 +119,7 @@ const Project = () => {
       </div>
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
-          <a
-            className="w-full xl:w-1/2 h-auto relative group"
-            href="https://nextamazon.reactbd.com/"
-            target="_blank"
-          >
+          <div className="w-full xl:w-1/2 h-auto relative group">
             <div>
               <Image
                 className="w-full h-[500px] object-contain"
@@ -131,8 +127,8 @@ const Project = () => {
                 alt="flyingcat"
               />
             </div>
-          </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6  items-end text-right xl:-ml-16 z-10">
+          </div>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6  items-end text-right xl:-ml-16 z-5">
             <div>
               <p className="font-title-font text-text-light dark:text-text-green text-sm tracking-wide">
                 Featured Project

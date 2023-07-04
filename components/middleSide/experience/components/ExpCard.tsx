@@ -2,7 +2,7 @@
 
 import { experiences } from '@/constants/strings';
 import MotionedDiv from '@/components/common/framer/MotionedDiv';
-import React from 'react';
+import React, { memo } from 'react';
 import { TiArrowForward } from 'react-icons/ti';
 
 const ExpCard = ({ expType }: { expType: (typeof experiences)[0] }) => {
@@ -138,4 +138,4 @@ const ExpCard = ({ expType }: { expType: (typeof experiences)[0] }) => {
   return <div>{content}</div>;
 };
 
-export default ExpCard;
+export default memo(ExpCard);

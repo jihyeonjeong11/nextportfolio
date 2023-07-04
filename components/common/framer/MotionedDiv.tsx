@@ -6,6 +6,7 @@ import React from 'react';
 type MotionedDivProps = {
   children: React.ReactNode;
   className?: string;
+  onClick?: any;
 } & MotionProps;
 
 function MotionedDiv({ children, ...rest }: MotionedDivProps) {

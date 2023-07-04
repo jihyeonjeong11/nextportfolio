@@ -1,10 +1,10 @@
 To do in future
 
-[] sorting icons
+[x] sorting icons
 
-[] fixing social links
+[x] fixing social links
 
-[] take a photo positively as possible
+[x] take a photo positively as possible
 
 [x] fix MotionedDiv type
 
@@ -12,7 +12,13 @@ To do in future
 
 [] set up github action to CI/CD to Vercel
 
-[] persistent dark mod value?(nextjs13 support?)
+[x] persistent theme value
+
+[]
+
+for later..
+
+[] IntersectionObserver
 
 Portfolio project for frontend dev JIHYEON JEONG
 
