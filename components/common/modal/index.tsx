@@ -162,14 +162,22 @@ export default function MyDialog({
               </a> */}
               <div className="flex gap-4">
                 <div className="flex gap-4">
-                  <Link href={LINK_GITHUB} target="_blank">
+                  <Link
+                    aria-label="to-github"
+                    href={LINK_GITHUB}
+                    target="_blank"
+                  >
                     <div className="bg-text-light hover:text-white dark:hover:text-text-green w-10 h-10 text-xl rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <span>
                         <TbBrandGithub />
                       </span>
                     </div>
                   </Link>
-                  <Link href={LINK_LINKEDIN} target="_blank">
+                  <Link
+                    aria-label="to-linkedin"
+                    href={LINK_LINKEDIN}
+                    target="_blank"
+                  >
                     <span className="bg-text-light hover:text-white dark:hover:text-text-green w-10 h-10 text-xl rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <SlSocialLinkedin />
                     </span>

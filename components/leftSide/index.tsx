@@ -9,14 +9,14 @@ const LeftSide = () => {
   return (
     <div className="text-text-light dark:text-text-grey w-full h-full flex flex-col items-center justify-end gap-4 ">
       <div className="flex flex-col gap-4">
-        <Link href={LINK_GITHUB} target="_blank">
+        <Link href={LINK_GITHUB} target="_blank" aria-label="to-github">
           <div className="bg-body-color-light dark:bg-hover-color hover:text-white dark:hover:text-text-green w-10 h-10 text-xl rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <span>
               <TbBrandGithub />
             </span>
           </div>
         </Link>
-        <Link href={LINK_LINKEDIN} target="_blank">
+        <Link href={LINK_LINKEDIN} target="_blank" aria-label="to-linkedin">
           <span className="bg-body-color-light dark:bg-hover-color hover:text-white dark:hover:text-text-green w-10 h-10 text-xl rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SlSocialLinkedin />
           </span>

@@ -3,6 +3,7 @@ import { AiFillThunderbolt } from 'react-icons/ai';
 
 import SectionTitle from '../common/SectionTitle';
 import profile from '@/public/images/profile.webp';
+import profileReduced from '@/public/images/profile-reduced.webp';
 import Image from 'next/image';
 
 const About = () => {
@@ -114,7 +115,7 @@ const About = () => {
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
               <Image
                 className="rounded-lg h-full w-max-[400px] md:object-contain lgl:object-cover"
-                src={profile}
+                src={profileReduced}
                 alt="profile pic"
                 priority
               />

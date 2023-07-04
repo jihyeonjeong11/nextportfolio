@@ -13,6 +13,7 @@ const Post = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <Link
+          aria-label="to-velog"
           href="https://velog.io/@jihyeonjeong11/%EC%9E%8A%EC%A7%80-%EC%95%8A%EA%B8%B0-%EC%9C%84%ED%95%B4-%ED%8F%AC%EC%8A%A4%ED%8C%85-%EC%B1%84%ED%8C%85-%EB%A9%94%EC%8B%9C%EC%A7%80%EB%A5%BC-%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%98%95%EC%9C%BC%EB%A1%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0"
           target="_blank"
         >
@@ -43,6 +44,7 @@ const Post = () => {
           </div>
         </Link>{' '}
         <Link
+          aria-label="to-velog"
           href="https://velog.io/@jihyeonjeong11/NextJS13%EC%9C%BC%EB%A1%9C-%EC%83%88-%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%9E%90-3-Next-themes-%EC%A0%81%EC%9A%A9%EA%B3%BC-sequential-animations"
           target="_blank"
         >
@@ -73,6 +75,7 @@ const Post = () => {
           </div>
         </Link>{' '}
         <Link
+          aria-label="to-velog"
           href="https://velog.io/@jihyeonjeong11/TRPC-%EC%82%AC%EC%9D%B4%EB%93%9C-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EB%8F%84%EC%A0%84%EA%B8%B0-%EC%8B%A4%ED%8C%A8"
           target="_blank"
         >

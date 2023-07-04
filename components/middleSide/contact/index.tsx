@@ -19,14 +19,14 @@ const Contact = () => {
         just want to say hi, I’ll try my best to get back to you!
       </p>
       <div className="text-text-light dark:text-text-grey hidden mdl:inline-flex xl:hidden items-center justify-center w-full py-6 gap-4">
-        <Link href={LINK_GITHUB} target="_blank">
+        <Link aria-label="to-github" href={LINK_GITHUB} target="_blank">
           <div className="bg-body-color-light dark:bg-hover-color hover:text-white dark:hover:text-text-green w-10 h-10 text-xl rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <span>
               <TbBrandGithub />
             </span>
           </div>
         </Link>
-        <Link href={LINK_LINKEDIN} target="_blank">
+        <Link aria-label="to-linkedin" href={LINK_LINKEDIN} target="_blank">
           <span className="bg-body-color-light dark:bg-hover-color hover:text-white dark:hover:text-text-green w-10 h-10 text-xl rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SlSocialLinkedin />
           </span>
