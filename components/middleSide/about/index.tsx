@@ -114,8 +114,8 @@ const About = () => {
           <div className="absolute w-full h-80 -left-6 -top-6 rounded-lg z-0">
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
               <Image
-                className="rounded-lg h-full w-max-[400px] md:object-contain lgl:object-cover"
-                src={profileReduced}
+                className="rounded-lg w-max-[300px] h-full md:object-cover lgl:object-cover"
+                src={profile}
                 alt="profile pic"
                 priority
               />
