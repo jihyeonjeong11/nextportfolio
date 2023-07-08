@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { AiFillThunderbolt } from 'react-icons/ai';
 
 import SectionTitle from '../common/SectionTitle';
 import profile from '@/public/images/profile.webp';
 import profileReduced from '@/public/images/profile-reduced.webp';
 import Image from 'next/image';
+import dynamic from 'next/dynamic';
 
 const About = () => {
   return (
@@ -129,4 +130,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default memo(About);
