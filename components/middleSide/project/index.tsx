@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import SectionTitle from '../common/SectionTitle';
 import Image from 'next/image';

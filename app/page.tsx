@@ -1,3 +1,4 @@
+'use client';
 import MotionedDiv from '@/components/common/framer/MotionedDiv';
 import About from '@/components/middleSide/about';
 import Banner from '@/components/middleSide/banner';
@@ -7,21 +8,24 @@ import Post from '@/components/middleSide/post';
 import Project from '@/components/middleSide/project';
 
 import * as delays from '@/constants/delays';
+import { useResolutions } from '@/lib/hooks/useResolutions';
 import dynamic from 'next/dynamic';
 
-export const metadata = {
-  title: 'JIHYEON JEONG',
-  description: 'frontend dev',
-  icons: {
-    icon: [{ url: '/icons/logo.svg' }],
-  },
-};
+// export const metadata = {
+//   title: 'JIHYEON JEONG',
+//   description: 'frontend dev',
+//   icons: {
+//     icon: [{ url: '/icons/logo.svg' }],
+//   },
+// };
 
 const DynamicNavBar = dynamic(() => import('@/app/dashboard/Navbar/index'));
 const DynamicLeftSide = dynamic(() => import('@/components/leftSide'));
 const DynamicRightSide = dynamic(() => import('@/components/rightSide'));
 
 export default function Home() {
+  const { isSSR } = useResolutions();
+  console.log(isSSR);
   return (
     <main className="scroll-smooth bg-hover-color-light w-full h-screen dark:bg-body-color text-text-grey overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-text-dark/20 scrollbar-thumb-text-dark/60">
       <DynamicNavBar />
