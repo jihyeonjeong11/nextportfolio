@@ -7,7 +7,6 @@ import patientSynthImg from '@/public/images/patientSynthImg.png';
 import flyingcatImg from '@/public/images/flyingcat.jpeg';
 import babygoImg from '@/public/images/babygo.jpeg';
 import Link from 'next/link';
-import { parseGPTToJSON } from '@/temp';
 
 const Project = () => {
   return (
@@ -15,11 +14,7 @@ const Project = () => {
       <SectionTitle title="Things I have Built" titleNo="03" />
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
-          <a
-            className="w-full xl:w-1/2 h-auto relative group"
-            href="https://ps.simprec.kr"
-            target="_blank"
-          >
+          <div className="w-full xl:w-1/2 h-auto relative group">
             <div>
               <Image
                 className="w-full h-full object-contain"
@@ -27,7 +22,7 @@ const Project = () => {
                 alt="patientsynth"
               />
             </div>
-          </a>
+          </div>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-5">
             <div>
               <p className="text-text-light dark:text-text-green font-title-font text-sm tracking-wide">
@@ -37,7 +32,7 @@ const Project = () => {
                 PatientSynth & SIMPREC
               </h3>
             </div>
-            <p className="text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="z-50 text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
               An patient information generator and medical-exam manager powered
               by{' '}
               <span className="text-text-light dark:text-text-green">
