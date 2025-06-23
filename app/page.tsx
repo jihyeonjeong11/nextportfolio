@@ -38,7 +38,8 @@ export default function Home() {
           <Banner />
           <About />
           <Experience />
-          <Project />
+          {/* 무슨 일, 무슨 강점을 보여줄 수 있는지 적어야 함. */}
+          <Project /> {/* 서비스 소개에숴 끝냄 */}
           {/* <Post /> */}
           <Contact />
         </div>

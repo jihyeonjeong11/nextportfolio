@@ -43,21 +43,14 @@ const Project = () => {
               </h3>
             </div>
             <p className="z-50 text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An patient information generator and medical-exam manager powered
-              by{" "}
-              <span className="text-text-light dark:text-text-green">
-                {" "}
-                OpenAi GPT 4.0
-              </span>{" "}
-              engine. Refactoring Jquery codebase to modern features such as
-              Service Worker, Centralized state management, WebRTC, WebSocket
-              and much more.
+              Pregnancy week calculation, weekly fetal growth report, parenting
+              growth and development check, fever management, pregnancy
+              probability check, etc. An essential diary for expectant mothers.
             </p>
             <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between ">
               <li>React-Native</li>
               <li>Typescript</li>
               <li>Styled-Components</li>
-              <li>Apach Echarts</li>
             </ul>
           </div>
         </div>
