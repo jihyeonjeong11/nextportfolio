@@ -1,11 +1,11 @@
-import './globals.css';
-import { inter } from '@/components/common/fonts';
-import NextThemeProvider from './theme-provider';
-import logo from '@/public/icons/logo.svg';
+import "./globals.css";
+import { inter } from "@/components/common/fonts";
+import NextThemeProvider from "./theme-provider";
+import logo from "@/public/icons/logo.svg";
 
 export const metadata = {
-  title: 'JIHYEON JEONG',
-  description: 'frontend dev',
+  title: "JIHYEON JEONG",
+  description: "frontend dev",
 };
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NextThemeProvider>{children}</NextThemeProvider>
+        <NextThemeProvider defaultTheme="dark">{children}</NextThemeProvider>
       </body>
     </html>
   );
