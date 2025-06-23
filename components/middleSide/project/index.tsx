@@ -1,17 +1,67 @@
-import React from 'react';
-import SectionTitle from '../common/SectionTitle';
-import Image from 'next/image';
-import { BiLink } from 'react-icons/bi';
+import React from "react";
+import SectionTitle from "../common/SectionTitle";
+import Image from "next/image";
+import { BiLink } from "react-icons/bi";
 
-import patientSynthImg from '@/public/images/patientSynthImg.png';
-import flyingcatImg from '@/public/images/flyingcat.jpeg';
-import babygoImg from '@/public/images/babygo.jpeg';
-import Link from 'next/link';
+import after10Img from "@/public/images/after10months.png";
+import patientSynthImg from "@/public/images/patientSynthImg.png";
+import flyingcatImg from "@/public/images/flyingcat.jpeg";
+import babygoImg from "@/public/images/babygo.jpeg";
+import Link from "next/link";
 
 const Project = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="Things I have Built" titleNo="03" />
+      <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="flex flex-col xl:flex-row gap-6">
+          <div className="w-full xl:w-1/2 h-auto relative group">
+            <div>
+              <Image
+                className="w-full h-full object-contain"
+                src={after10Img}
+                alt="after10"
+              />
+            </div>
+          </div>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-5">
+            <div>
+              <div className="text-2xl flex gap-4 justify-end">
+                <Link
+                  className="hover:text-body-color-light dark:hover:text-text-green duration-300"
+                  href="https://www.after10m.com/ko/"
+                  target="_blank"
+                >
+                  <BiLink />
+                </Link>
+              </div>
+              <p className="text-text-light dark:text-text-green font-title-font text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-text-light dark:text-text-green text-2xl font-bold">
+                After10Months
+              </h3>
+            </div>
+            <p className="z-50 text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+              An patient information generator and medical-exam manager powered
+              by{" "}
+              <span className="text-text-light dark:text-text-green">
+                {" "}
+                OpenAi GPT 4.0
+              </span>{" "}
+              engine. Refactoring Jquery codebase to modern features such as
+              Service Worker, Centralized state management, WebRTC, WebSocket
+              and much more.
+            </p>
+            <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between ">
+              <li>React-Native</li>
+              <li>Typescript</li>
+              <li>Styled-Components</li>
+              <li>Apach Echarts</li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
           <div className="w-full xl:w-1/2 h-auto relative group">
@@ -25,6 +75,15 @@ const Project = () => {
           </div>
           <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-5">
             <div>
+              <div className="text-2xl flex gap-4 justify-end">
+                <Link
+                  className="hover:text-body-color-light dark:hover:text-text-green duration-300"
+                  href="https://www.ibstech.kr/"
+                  target="_blank"
+                >
+                  <BiLink />
+                </Link>
+              </div>
               <p className="text-text-light dark:text-text-green font-title-font text-sm tracking-wide">
                 Featured Project
               </p>
@@ -34,11 +93,11 @@ const Project = () => {
             </div>
             <p className="z-50 text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
               An patient information generator and medical-exam manager powered
-              by{' '}
+              by{" "}
               <span className="text-text-light dark:text-text-green">
-                {' '}
+                {" "}
                 OpenAi GPT 4.0
-              </span>{' '}
+              </span>{" "}
               engine. Refactoring Jquery codebase to modern features such as
               Service Worker, Centralized state management, WebRTC, WebSocket
               and much more.
@@ -49,15 +108,6 @@ const Project = () => {
               <li>Typescript</li>
               <li>TailwindCSS</li>
             </ul>
-            <div className="text-2xl flex gap-4">
-              <Link
-                className="hover:text-body-color-light dark:hover:text-text-green duration-300"
-                href="https://babygo.kr"
-                target="_blank"
-              >
-                <BiLink />
-              </Link>
-            </div>
           </div>
         </div>
       </div>
@@ -78,6 +128,15 @@ const Project = () => {
           </a>
           <div className="w-full xl:w-1/2 flex flex-col gap-6  items-end text-right xl:-ml-16 z-5">
             <div>
+              <div className="text-2xl flex gap-4 justify-end">
+                <Link
+                  className="hover:text-body-color-light dark:hover:text-text-green duration-300"
+                  href="https://babygo.kr/"
+                  target="_blank"
+                >
+                  <BiLink />
+                </Link>
+              </div>
               <p className="font-title-font text-text-light dark:text-text-green text-sm tracking-wide">
                 Featured Project
               </p>
@@ -100,15 +159,6 @@ const Project = () => {
               <li>Google clouds</li>
               <li>Postgresql</li>
             </ul>
-            <div className="text-2xl flex gap-4">
-              <Link
-                className="hover:text-body-color-light dark:hover:text-text-green duration-300"
-                href="https://babygo.kr/"
-                target="_blank"
-              >
-                <BiLink />
-              </Link>
-            </div>
           </div>
         </div>
       </div>
@@ -144,7 +194,6 @@ const Project = () => {
               <li>AWS</li>
               <li>Postgresql</li>
             </ul>
-            <div className="text-2xl flex gap-4"></div>
           </div>
         </div>
       </div>

@@ -1,25 +1,25 @@
-import MotionedDiv from '@/components/common/framer/MotionedDiv';
-import About from '@/components/middleSide/about';
-import Banner from '@/components/middleSide/banner';
-import Contact from '@/components/middleSide/contact';
-import Experience from '@/components/middleSide/experience';
-import Post from '@/components/middleSide/post';
-import Project from '@/components/middleSide/project';
+import MotionedDiv from "@/components/common/framer/MotionedDiv";
+import About from "@/components/middleSide/about";
+import Banner from "@/components/middleSide/banner";
+import Contact from "@/components/middleSide/contact";
+import Experience from "@/components/middleSide/experience";
+import Post from "@/components/middleSide/post";
+import Project from "@/components/middleSide/project";
 
-import * as delays from '@/constants/delays';
-import dynamic from 'next/dynamic';
+import * as delays from "@/constants/delays";
+import dynamic from "next/dynamic";
 
 export const metadata = {
-  title: 'JIHYEON JEONG',
-  description: 'frontend dev',
+  title: "JIHYEON JEONG",
+  description: "frontend dev",
   icons: {
-    icon: [{ url: '/icons/logo.svg' }],
+    icon: [{ url: "/icons/logo.svg" }],
   },
 };
 
-const DynamicNavBar = dynamic(() => import('@/app/dashboard/Navbar/index'));
-const DynamicLeftSide = dynamic(() => import('@/components/leftSide'));
-const DynamicRightSide = dynamic(() => import('@/components/rightSide'));
+const DynamicNavBar = dynamic(() => import("@/app/dashboard/Navbar/index"));
+const DynamicLeftSide = dynamic(() => import("@/components/leftSide"));
+const DynamicRightSide = dynamic(() => import("@/components/rightSide"));
 
 export default function Home() {
   return (
@@ -39,7 +39,7 @@ export default function Home() {
           <About />
           <Experience />
           <Project />
-          <Post />
+          {/* <Post /> */}
           <Contact />
         </div>
         <MotionedDiv
