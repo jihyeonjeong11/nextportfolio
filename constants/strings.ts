@@ -1,8 +1,8 @@
 export const experiences = [
   "커넥트아이",
-  "Ibstech",
+  "아이비에스테크",
   "애기야가자",
-  "CrunchCompany",
+  "플라잉캣",
 ];
 
 export type ExpreienceType = typeof experiences;

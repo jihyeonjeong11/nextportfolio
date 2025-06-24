@@ -1,8 +1,8 @@
 import "./globals.css";
 import { inter } from "@/components/common/fonts";
 import NextThemeProvider from "./theme-provider";
-import logo from "@/public/icons/logo.svg";
 import { getLocale } from "next-intl/server";
+import { headers } from "next/headers";
 
 export const metadata = {
   title: "JIHYEON JEONG",

@@ -31,8 +31,7 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full text-text-light dark:text-text-dark lgl:w-2/3 text-base font-medium flex flex-col gap-4">
           <p>{t("intro")}</p>
-          <p>{t("experience")}</p>
-          <p>{t("learning")}</p>
+          {/* <p>{t("experience")}</p> */}
           <p>{t("adaptability")}</p>
           <p>{t("techListIntro")}</p>
 

@@ -16,7 +16,7 @@ const Project = () => {
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="Things I have Built" titleNo="03" />
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-        <div className="flex flex-col xl:flex-row gap-6">
+        <div className="flex flex-col xl:flex-row gap-6 w-full">
           <div className="w-full xl:w-1/2 h-auto relative group">
             <div>
               <Image
@@ -44,19 +44,20 @@ const Project = () => {
                 {t("project1Title")}
               </h3>
             </div>
-            <p className="z-50 text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="text-left z-50 text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
               {t("project1Content")}
             </p>
             <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between ">
               <li>React-Native</li>
               <li>Typescript</li>
               <li>Styled-Components</li>
+              <li>Echarts</li>
             </ul>
           </div>
         </div>
       </div>
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-        <div className="flex flex-col xl:flex-row gap-6">
+        <div className="flex flex-col xl:flex-row gap-6 w-full">
           <div className="w-full xl:w-1/2 h-auto relative group">
             <div>
               <Image
@@ -97,12 +98,15 @@ const Project = () => {
               <li>React</li>
               <li>Typescript</li>
               <li>TailwindCSS</li>
+              <li>WebRTC</li>
+              <li>React-Rnd</li>
+              <li>JsPdf</li>
             </ul>
           </div>
         </div>
       </div>
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-        <div className="flex flex-col xl:flex-row gap-6">
+        <div className="flex flex-col xl:flex-row gap-6 w-full">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
             href="https://babygo.kr"
@@ -134,7 +138,7 @@ const Project = () => {
                 {t("project3Title")}
               </h3>
             </div>
-            <p className="text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240]  text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="text-left text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240]  text-sm md:text-base p-2 md:p-6 rounded-md">
               {t("project3Content")}
             </p>
             <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between">
@@ -149,7 +153,7 @@ const Project = () => {
         </div>
       </div>
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-        <div className="flex flex-col xl:flex-row gap-6">
+        <div className="flex flex-col xl:flex-row gap-6 w-full">
           <div className="w-full xl:w-1/2 h-auto relative group">
             <div>
               <Image
@@ -168,7 +172,7 @@ const Project = () => {
                 {t("project4Title")}
               </h3>
             </div>
-            <p className="text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240]  text-sm md:text-base p-2 md:p-6 rounded-md">
+            <p className="text-left text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240]  text-sm md:text-base p-2 md:p-6 rounded-md">
               {t("project4Content")}
             </p>
             <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between">

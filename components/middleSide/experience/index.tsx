@@ -34,7 +34,7 @@ const Experience = () => {
             <li
               key={exp + key}
               className={
-                `text-text-light dark:text-text-dark w-full border-l-2 bg-transparent dark:hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium ` +
+                `text-text-light dark:text-text-dark w-full border-l-2 bg-transparent dark:hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-3 font-medium ` +
                 (switchState === exp
                   ? "border-l-body-color-light text-text-body-color-light dark:border-l-text-green dark:text-text-green"
                   : "border-l-hover-color")

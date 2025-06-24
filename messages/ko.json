@@ -1,0 +1,51 @@
+{
+  "Banner": {
+    "greeting": "안녕하세요. 저는",
+    "name": "정지현입니다.",
+    "tagline": "서비스를 웹과 앱으로 개발합니다.",
+    "description": "기술에 대한 열정과 해당 기술을 실용적으로 사용하는 평생 배우고 싶은 개발자입니다. 5년 이상의 개발자 경력을 가지고 있습니다.",
+    "learnMore": "GitHub 확인하기",
+    "cta": "프로젝트 확인하기"
+  },
+  "About": {
+    "sectionTitle": "About Me",
+    "intro": "사람들에게 도움이 되는 서비스를 개발하는 것과 자신의 지식의 범위를 넓히는 것을 좋아합니다.",
+    "experience": "주로 작은 팀에서 일하며 제반 지식 없이 개발적인 도전을 해결해 왔습니다.",
+    "adaptability": "개발하고자 하는 앱의 사양에 맞는 스택과 공부 플랜을 정합니다. 필요하다면 합니다.",
+    "techListIntro": "저의 테크 스텍입니다."
+  },
+  "Experiences": {
+    "exp1Role": "프론트엔드 개발자",
+    "exp1Title": "@커넥트아이",
+    "exp1Date": " 2023.10~2024.09",
+    "exp1Content": "기존 앱의 리팩토링, 네이티브 관련 기능의 최신화 및",
+    "exp1Highlight": "퍼포먼스 향상",
+    "exp1ContentSecond": "에 주력, 15년 간의 아이 성장 데이터 및 총 4개의 차트 퍼포먼스 문제 해결",
+    "exp2Role": "프론트엔드 리드",
+    "exp2Title": "@아이비에스테크",
+    "exp2Date": "2022.09~2023.06",
+    "exp2Content": "외과 시험 소프트웨어 개발 책임, WebRTC, Rnd, Vue3 등 요구사양에 맞춘 라이브러리 & 프레임워크 직접 선정 후 출시까지 개발",
+    "exp3Role": "개발 리드",
+    "exp3Title": "@애기야가자",
+    "exp3Date": "2021.01~2022.05",
+    "exp3Content": "풀스택 설계 및 개발",
+    "exp3Hightlight": "AWS 인프라 구조 개선, 동시접속자 15배 증가 및 월 전송량 70~80% 절감",
+    "exp3ContentSecond": "유저 데이터 파이프라인 구축, 6억건 이상의 유저 데이터 저장 및 빅 데이터 활용 기반 개발",
+    "exp4Role": "프론트엔드 개발자",
+    "exp4Title": "@플라잉캣",
+    "exp4Date": "2019.03 ~ 2020.08",
+    "exp4Content": "플라잉캣 Web, App(React-Native) 개발 및 유지 보수. 첫 개발부터 출시까지 개발"
+  },
+  "Projects": {
+    "project1Title": "열달후에",
+    "project1Content": "임신준비, 임신, 육아에 대한 고민을 공유하고 정보를 얻는 React-Native, React 기반 임신&육아 플랫폼입니다.",
+    "project2Title": "SIMPREC & PATIENTSYNTH",
+    "project2Content": "외과 자격시험을 위한 소프트웨어입니다. SIMPREC은 수험자와 감독관용 시험 관리 소프트웨어, PatientSynth는 외과 시험용 환자 정보를",
+    "project2Highlight": "OpenAi GPT 4.0",
+    "project2ContentSecond": "을 통해 생성합니다.",
+    "project3Title": "애기야가자",
+    "project3Content": "아이와 함께 놀러갈 수 있는 장소를 소개하는 React-Native, React 기반 놀이장소 소개 플랫폼입니다.",
+    "project4Title": "플라잉캣",
+    "project4Content": "고도몰 API와 연동된 React-Native, React 기반 커머셜 플랫폼입니다. 초저가 상품 가격을 한 번에 조회 후 장바구니로 한 번에 구매 가능한 경험을 제공합니다."
+  }
+}

@@ -3,15 +3,13 @@
     "greeting": "Hi, my name is",
     "name": "JIHYEON JEONG.",
     "tagline": "I build things for the web.",
-    "description": "I am a web developer with 5+ years of experience in React. I have a strong foundation in front-end & back-end development and am skilled in creating user-friendly and responsive web applications using React and its ecosystem.",
+    "description": "Lifelong learner with a pragmatic mindset and a passion for technology. Web developer with over 5 years of experience in software development and 6 years in the IT industry.",
     "learnMore": "Learn more",
     "cta": "Check out my projects"
   },
   "About": {
     "sectionTitle": "About Me",
-    "intro": "Hello! My name is Jihyeon Jeong and I enjoy coding and creating values from them. Started my career since 2019 in web development when I decided to become a professional frontend developer. Since then, I have consistently pursued learning opportunities and applied my knowledge to create exceptional services.",
-    "experience": "Fast-forward to today, and I had the privilege of working at startups, developing SaaS projects from scratch and maintaining them in the most time-efficient manner. One of the key factors from my experience is the careful selection of appropriate tech stacks for each project, ensuring optimal results.",
-    "learning": "In addition to my practical experience, I am committed to enhancing my development skills through continuous learning. I frequently seek guidance from industry experts and stay up-to-date with the latest trends and techniques by watching YouTube videos and tutorials.",
+    "intro": "Hello! My name is Jihyeon Jeong and I enjoy coding and creating values from them. I've been working since 2019 in web development when I decided to become a professional frontend developer. Since then, I have consistently pursued learning opportunities and applied my knowledge to create exceptional services.",
     "adaptability": "I believe I can adopt any tech stacks in a timely manner to meet the requirements of any development organization. As a frontend developer, I am confident in my versatility and adaptability.",
     "techListIntro": "Here are a few technologies I have been working with recently:"
   },
