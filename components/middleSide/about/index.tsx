@@ -1,24 +1,24 @@
-import React from 'react';
-import { AiFillThunderbolt } from 'react-icons/ai';
-import { useTranslations } from 'next-intl';
-import Image from 'next/image';
+import React from "react";
+import { AiFillThunderbolt } from "react-icons/ai";
+import { useTranslations } from "next-intl";
+import Image from "next/image";
 
-import SectionTitle from '../common/SectionTitle';
-import profile from '@/public/images/profile.webp';
+import SectionTitle from "../common/SectionTitle";
+import profile from "@/public/images/profile.webp";
 
 const About = () => {
-  const t = useTranslations('About');
+  const t = useTranslations("About");
   const techStack = [
-    'JavaScript (ES6+)',
-    'Next.js',
-    'React',
-    'React-Native',
-    'Vue3',
-    'Node.js',
-    'Django',
-    'PostgreSql',
-    'BigQuery',
-    'TailwindCSS',
+    "JavaScript (ES6+)",
+    "Next.js",
+    "React",
+    "React-Native",
+    "Vue3",
+    "Node.js",
+    "Django",
+    "PostgreSql",
+    "BigQuery",
+    "TailwindCSS",
   ];
 
   return (
@@ -26,15 +26,15 @@ const About = () => {
       id="about"
       className="max-w-container-small mx-auto py-10 lgl:py-32 flex flex-col gap-8"
     >
-      <SectionTitle title={t('sectionTitle')} titleNo="01" />
+      <SectionTitle title={t("sectionTitle")} titleNo="01" />
 
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full text-text-light dark:text-text-dark lgl:w-2/3 text-base font-medium flex flex-col gap-4">
-          <p>{t('intro')}</p>
-          <p>{t('experience')}</p>
-          <p>{t('learning')}</p>
-          <p>{t('adaptability')}</p>
-          <p>{t('techListIntro')}</p>
+          <p>{t("intro")}</p>
+          <p>{t("experience")}</p>
+          <p>{t("learning")}</p>
+          <p>{t("adaptability")}</p>
+          <p>{t("techListIntro")}</p>
 
           <ul className="max-w-[450px] text-sm font-title-font grid grid-cols-2 gap-2 mt-6">
             {techStack.map((tech) => (

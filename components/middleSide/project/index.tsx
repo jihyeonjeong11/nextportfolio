@@ -8,8 +8,10 @@ import patientSynthImg from "@/public/images/patientSynthImg.png";
 import flyingcatImg from "@/public/images/flyingcat.jpeg";
 import babygoImg from "@/public/images/babygo.jpeg";
 import Link from "next/link";
+import { useTranslations } from "next-intl";
 
 const Project = () => {
+  const t = useTranslations("Projects");
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="Things I have Built" titleNo="03" />
@@ -39,13 +41,11 @@ const Project = () => {
                 Featured Project
               </p>
               <h3 className="text-text-light dark:text-text-green text-2xl font-bold">
-                After10Months
+                {t("project1Title")}
               </h3>
             </div>
             <p className="z-50 text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              Pregnancy week calculation, weekly fetal growth report, parenting
-              growth and development check, fever management, pregnancy
-              probability check, etc. An essential diary for expectant mothers.
+              {t("project1Content")}
             </p>
             <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between ">
               <li>React-Native</li>
@@ -81,19 +81,16 @@ const Project = () => {
                 Featured Project
               </p>
               <h3 className="text-text-light dark:text-text-green text-2xl font-bold">
-                PatientSynth & SIMPREC
+                {t("project2Title")}
               </h3>
             </div>
             <p className="z-50 text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
-              An patient information generator and medical-exam manager powered
-              by{" "}
+              {t("project2Content")}{" "}
               <span className="text-text-light dark:text-text-green">
                 {" "}
-                OpenAi GPT 4.0
+                {t("project2Highlight")}
               </span>{" "}
-              engine. Refactoring Jquery codebase to modern features such as
-              Service Worker, Centralized state management, WebRTC, WebSocket
-              and much more.
+              {t("project2ContentSecond")}
             </p>
             <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between ">
               <li>Vue3</li>
@@ -134,15 +131,11 @@ const Project = () => {
                 Featured Project
               </p>
               <h3 className="text-text-light dark:text-text-green text-2xl font-bold">
-                애기야가자
+                {t("project3Title")}
               </h3>
             </div>
             <p className="text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240]  text-sm md:text-base p-2 md:p-6 rounded-md">
-              Hybrid mobile app project for visualizing personalized places to
-              visit for family. Creating ID card for children and getting
-              recommended top places via big data, user reviews, recently
-              popular places and detailed info uploaded by business owner
-              themselves.
+              {t("project3Content")}
             </p>
             <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between">
               <li>React-Native</li>
@@ -172,13 +165,11 @@ const Project = () => {
                 Featured Project
               </p>
               <h3 className="text-text-light dark:text-text-green text-2xl font-bold">
-                CrunchPrice
+                {t("project4Title")}
               </h3>
             </div>
             <p className="text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240]  text-sm md:text-base p-2 md:p-6 rounded-md">
-              Hybrid E-commerce mobile app and web app. Show featured products
-              categorized by brand, show merchandise detail, handling shopping
-              cart and purchase.
+              {t("project4Content")}
             </p>
             <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between">
               <li>React-Native</li>

@@ -26,5 +26,23 @@
       "BigQuery": "BigQuery",
       "TailwindCSS": "TailwindCSS"
     }
+  },
+  "Experiences": {
+    "exp1": "",
+    "exp2": "",
+    "exp3": "",
+    "exp4": ""
+  },
+  "Projects": {
+    "project1Title": "After10Months",
+    "project1Content": "Pregnancy week calculation, weekly fetal growth report, parenting growth and development check, fever management, pregnancy probability check, etc. An essential diary for expectant mothers.",
+    "project2Title": "After10Months",
+    "project2Content": " An patient information generator and medical-exam manager powered",
+    "project2Highlight": "OpenAi GPT 4.0",
+    "project2ContentSecond": "engine. Refactoring Jquery codebase to modern features such as Service Worker, Centralized state management, WebRTC, WebSocket and much more.",
+    "project3Title": "Babygo",
+    "project3Content": "Hybrid mobile app project for visualizing personalized places to visit for family. Creating ID card for children and getting recommended top places via big data, user reviews, recently popular places and detailed info uploaded by business owner themselves.",
+    "project4Title": "CrunchPrice",
+    "project4Content": "Hybrid E-commerce mobile app and web app. Show featured products categorized by brand, show merchandise detail, handling shopping cart and purchase."
   }
 }

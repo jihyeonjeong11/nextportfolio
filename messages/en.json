@@ -13,24 +13,40 @@
     "experience": "Fast-forward to today, and I had the privilege of working at startups, developing SaaS projects from scratch and maintaining them in the most time-efficient manner. One of the key factors from my experience is the careful selection of appropriate tech stacks for each project, ensuring optimal results.",
     "learning": "In addition to my practical experience, I am committed to enhancing my development skills through continuous learning. I frequently seek guidance from industry experts and stay up-to-date with the latest trends and techniques by watching YouTube videos and tutorials.",
     "adaptability": "I believe I can adopt any tech stacks in a timely manner to meet the requirements of any development organization. As a frontend developer, I am confident in my versatility and adaptability.",
-    "techListIntro": "Here are a few technologies I have been working with recently:",
-    "tech": {
-      "JavaScript (ES6+)": "JavaScript (ES6+)",
-      "Next.js": "Next.js",
-      "React": "React",
-      "React-Native": "React-Native",
-      "Vue3": "Vue3",
-      "Node.js": "Node.js",
-      "Django": "Django",
-      "PostgreSql": "PostgreSQL",
-      "BigQuery": "BigQuery",
-      "TailwindCSS": "TailwindCSS"
-    }
+    "techListIntro": "Here are a few technologies I have been working with recently:"
   },
-  "Exp": {
-    "exp1": "",
-    "exp2": "",
-    "exp3": "",
-    "exp4": ""
+  "Experiences": {
+    "exp1Role": "Frontend Developer",
+    "exp1Title": "@ConnectI",
+    "exp1Date": "Oct 2023 - Sep 2024",
+    "exp1Content": "Maintained and developed new features for After10Months, a pregnancy tracking app built with React Native. Focused primarily on",
+    "exp1Highlight": "Performance",
+    "exp1ContentSecond": "improvements and updating native-integrated libraries.",
+    "exp2Role": "Frontend Lead",
+    "exp2Title": "@Ibstech",
+    "exp2Date": "Oct 2022 - June 2023",
+    "exp2Content": "Wrote robust, maintainable code for medical exam management web apps in collaboration with medical colleges such as Chonnam and Pusan. Shared knowledge and actively discussed modern web architecture with team members and stakeholders.",
+    "exp3Role": "Development Lead",
+    "exp3Title": "@Babygo",
+    "exp3Date": "Jan 2021 - May 2022",
+    "exp3Content": "Full stack development on place-suggesting live service product Focusing from planning DB schema to implementing adequate mobile app UI structure. Provided leadership with team toward same goal, 'Get things done' achieving launching new services and features with timely manner,s including",
+    "exp3Hightlight": "Child ID card, User content forum system, Place-suggesting feature",
+    "exp3ContentSecond": "through Bigdata collection powered by Google Bigquery and various collaboration features with 밴더스터, 더핑크퐁컴퍼니, 한화생명 and more.",
+    "exp4Role": "Frontend Developer",
+    "exp4Title": "@FlyingCat",
+    "exp4Date": "May 2019 - Aug 2020",
+    "exp4Content": "Developed, maintained E-commerce app and web app."
+  },
+  "Projects": {
+    "project1Title": "After10Months",
+    "project1Content": "Pregnancy week calculation, weekly fetal growth report, parenting growth and development check, fever management, pregnancy probability check, etc. An essential diary for expectant mothers.",
+    "project2Title": "After10Months",
+    "project2Content": " An patient information generator and medical-exam manager powered",
+    "project2Highlight": "OpenAi GPT 4.0",
+    "project2ContentSecond": "engine. Refactoring Jquery codebase to modern features such as Service Worker, Centralized state management, WebRTC, WebSocket and much more.",
+    "project3Title": "Babygo",
+    "project3Content": "Hybrid mobile app project for visualizing personalized places to visit for family. Creating ID card for children and getting recommended top places via big data, user reviews, recently popular places and detailed info uploaded by business owner themselves.",
+    "project4Title": "CrunchPrice",
+    "project4Content": "Hybrid E-commerce mobile app and web app. Show featured products categorized by brand, show merchandise detail, handling shopping cart and purchase."
   }
 }
