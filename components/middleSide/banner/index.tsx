@@ -3,8 +3,10 @@ import React from 'react';
 import MotionedDiv from '@/components/common/framer/MotionedDiv';
 
 import * as delays from '@/constants/delays';
+import { useTranslations } from 'next-intl';
 
 const Banner = () => {
+  const t = useTranslations('Banner');
   return (
     <section
       id="home"
@@ -25,9 +27,9 @@ const Banner = () => {
         transition={{ duration: 0.5, delay: delays.MAIN_SECOND }}
       >
         <h1 className="text-text-light dark:text-text-dark text-4xl lgl:text-6xl font-title-font font-semibold flex flex-col">
-          JIHYEON JEONG.{' '}
+          {t('name')}{' '}
           <span className="text-body-color-light dark:text-text-dark mt-2 lgl:mt-4">
-            I build things for the web.
+            {t('tagline')}
           </span>
         </h1>
       </MotionedDiv>
@@ -38,10 +40,7 @@ const Banner = () => {
       >
         <p className="text-text-light dark:text-text-dark text-base md:max-w-[650px]  font-medium">
           {' '}
-          I am a web developer with 3+ years of experience in React. I have a
-          strong foundation in front-end & back-end development and am skilled
-          in creating user-friendly and responsive web applications using React
-          and its ecosystem.
+          {t('description')}
         </p>
         <a aria-label="to-github" href="https://github.com/jihyeonjeong11">
           <span className="text-body-color-light dark:text-text-green inline-flex relative cursor-pointer h-7 overflow-x-hidden group">

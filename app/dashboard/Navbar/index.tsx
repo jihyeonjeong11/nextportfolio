@@ -1,13 +1,13 @@
-"use client";
+'use client';
 
-import React from "react";
+import React from 'react';
 
-import { montserrat } from "@/components/common/fonts";
-import MotionedDiv from "@/components/common/framer/MotionedDiv";
+import { montserrat } from '@/components/common/fonts';
+import MotionedDiv from '@/components/common/framer/MotionedDiv';
 
-import * as delays from "@/constants/delays";
-import ThemeSwitcher from "@/app/theme-switcher";
-import MyDialog from "@/components/common/modal";
+import * as delays from '@/constants/delays';
+import ThemeSwitcher from '@/app/theme-switcher';
+import MyDialog from '@/components/common/modal';
 
 const Navbar = () => {
   const [mounted, setMounted] = React.useState(false);
@@ -72,7 +72,7 @@ const Navbar = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: delays.THIRD }}
                 >
-                  <span>03. Experience</span>
+                  <span>02. Experience</span>
                 </MotionedDiv>
               </a>
             </li>
@@ -87,7 +87,7 @@ const Navbar = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: delays.FOURTH }}
                 >
-                  <span>04. Projects</span>
+                  <span>03. Projects</span>
                 </MotionedDiv>
               </a>
             </li>
@@ -102,7 +102,7 @@ const Navbar = () => {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: delays.FIFTH }}
                 >
-                  <span>05. Contacts</span>
+                  <span>04. Contacts</span>
                 </MotionedDiv>
               </a>
             </li>
