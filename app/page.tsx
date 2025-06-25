@@ -5,6 +5,7 @@ import About from "@/components/middleSide/about";
 import Banner from "@/components/middleSide/banner";
 import Contact from "@/components/middleSide/contact";
 import Experience from "@/components/middleSide/experience";
+import Post from "@/components/middleSide/post";
 import Project from "@/components/middleSide/project";
 import RightSide from "@/components/rightSide";
 
@@ -51,7 +52,7 @@ export default async function Home() {
             <Experience />
           </NextIntlClientProvider>
           <Project />
-          {/* <Post /> */}
+          <Post />
           <Contact />
         </div>
       </div>
