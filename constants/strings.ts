@@ -9,5 +9,4 @@ export type ExpreienceType = typeof experiences;
 
 export const LINK_GITHUB = "https://github.com/jihyeonjeong11";
 
-export const LINK_LINKEDIN =
-  "https://www.linkedin.com/in/jihyeon-jeong-438b2a13a";
+export const LINK_LINKEDIN = "https://www.linkedin.com/in/jihyeon-jeong";
