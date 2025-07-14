@@ -7,6 +7,7 @@ import after10Img from "@/public/images/after10months.png";
 import patientSynthImg from "@/public/images/patientSynthImg.png";
 import flyingcatImg from "@/public/images/flyingcat.jpeg";
 import babygoImg from "@/public/images/babygo.jpeg";
+import pwaWindows from "@/public/images/pwa-windows.png";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
@@ -15,6 +16,48 @@ const Project = () => {
   return (
     <section id="project" className="max-w-container mx-auto lgl:px-20 py-24">
       <SectionTitle title="Things I have Built" titleNo="03" />
+      <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+        <div className="flex flex-col xl:flex-row gap-6 w-full">
+          <div className="w-full xl:w-1/2 h-auto relative group">
+            <div>
+              <Image
+                className="w-full h-full object-contain"
+                src={pwaWindows}
+                alt="pwawindows"
+              />
+            </div>
+          </div>
+          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-5">
+            <div>
+              <div className="text-2xl flex gap-4 justify-end">
+                <Link
+                  className="hover:text-body-color-light dark:hover:text-text-green duration-300"
+                  href="https://jihyeonjeong11.github.io/pwa-github-page/"
+                  target="_blank"
+                >
+                  <BiLink />
+                </Link>
+              </div>
+              <p className="text-text-light dark:text-text-green font-title-font text-sm tracking-wide">
+                Featured Project
+              </p>
+              <h3 className="text-text-light dark:text-text-green text-2xl font-bold">
+                {t("project5Title")}
+              </h3>
+            </div>
+            <p className="text-left z-50 text-white dark:text-text-dark bg-body-color-light dark:bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md">
+              {t("project5Content")}
+            </p>
+            <ul className="text-body-color-light dark:text-text-dark text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between ">
+              <li>Vite-PWA</li>
+              <li>Reactjs</li>
+              <li>Typescript</li>
+              <li>TailwindCSS</li>
+              <li>React-Rnd</li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6 w-full">
           <div className="w-full xl:w-1/2 h-auto relative group">

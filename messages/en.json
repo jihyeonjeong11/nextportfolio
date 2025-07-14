@@ -45,6 +45,8 @@
     "project3Title": "Babygo",
     "project3Content": "Hybrid mobile app project for visualizing personalized places to visit for family. Creating ID card for children and getting recommended top places via big data, user reviews, recently popular places and detailed info uploaded by business owner themselves.",
     "project4Title": "CrunchPrice",
-    "project4Content": "Hybrid E-commerce mobile app and web app. Show featured products categorized by brand, show merchandise detail, handling shopping cart and purchase."
+    "project4Content": "Hybrid E-commerce mobile app and web app. Show featured products categorized by brand, show mualizing personalized places to visit for family. Creating ID card for children and getting recommended top places via big data, user reviews, recently popular places and detailed info uploaded by business owner themselves.",
+    "project5Title": "PWA-windows",
+    "project5Content": "This is a side project I'm currently developing, themed after Windows 95. My goal is to implement various programs on the web, with window management handled via React-Rnd and react context."
   }
 }
