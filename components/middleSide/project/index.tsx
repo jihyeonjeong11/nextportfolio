@@ -10,6 +10,7 @@ import babygoImg from "@/public/images/babygo.jpeg";
 import pwaWindows from "@/public/images/pwa-windows.png";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import { BsGithub } from "react-icons/bs";
 
 const Project = () => {
   const t = useTranslations("Projects");
@@ -37,9 +38,16 @@ const Project = () => {
                 >
                   <BiLink />
                 </Link>
+                <Link
+                  className="hover:text-body-color-light dark:hover:text-text-green duration-300"
+                  href="https://github.com/jihyeonjeong11/pwa-github-page"
+                  target="_blank"
+                >
+                  <BsGithub />
+                </Link>
               </div>
               <p className="text-text-light dark:text-text-green font-title-font text-sm tracking-wide">
-                Featured Project
+                Personal Project
               </p>
               <h3 className="text-text-light dark:text-text-green text-2xl font-bold">
                 {t("project5Title")}
@@ -121,6 +129,7 @@ const Project = () => {
                   <BiLink />
                 </Link>
               </div>
+
               <p className="text-text-light dark:text-text-green font-title-font text-sm tracking-wide">
                 Featured Project
               </p>

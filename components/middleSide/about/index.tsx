@@ -4,7 +4,8 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 import SectionTitle from "../common/SectionTitle";
-import profile from "@/public/images/profile.webp";
+//import profile from "@/public/images/profile.webp";
+import newProfile from "@/public/images/new-profile.webp";
 
 const About = () => {
   const t = useTranslations("About");
@@ -52,7 +53,7 @@ const About = () => {
             <div className="w-full h-full relative z-20 flex pl-6 lgl:pl-0">
               <Image
                 className="rounded-lg w-max-[300px] h-full md:object-cover lgl:object-cover"
-                src={profile}
+                src={newProfile}
                 alt="profile pic"
                 priority
               />
