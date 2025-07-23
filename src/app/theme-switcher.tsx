@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { BsSun, BsMoon } from "react-icons/bs";
 import { useAnimate } from "framer-motion";
-
 import MotionedDiv from "@/components/common/framer/MotionedDiv";
 
 const ThemeSwitcher = () => {

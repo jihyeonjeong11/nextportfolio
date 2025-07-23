@@ -1,5 +1,6 @@
-import "./globals.css";
-import { inter } from "@/components/common/fonts";
+import { inter } from "../components/common/fonts";
+import "@/app/globals.css";
+
 import NextThemeProvider from "./theme-provider";
 import { getLocale } from "next-intl/server";
 import { headers } from "next/headers";
