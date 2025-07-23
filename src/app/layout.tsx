@@ -2,8 +2,6 @@ import { inter } from "../components/common/fonts";
 import "@/app/globals.css";
 
 import NextThemeProvider from "./theme-provider";
-import { getLocale } from "next-intl/server";
-import { headers } from "next/headers";
 
 export const metadata = {
   title: "JIHYEON JEONG",
@@ -15,12 +13,5 @@ export default async function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const locale = await getLocale();
-  return (
-    <html lang={locale}>
-      <body className={inter.className}>
-        <NextThemeProvider defaultTheme="dark">{children}</NextThemeProvider>
-      </body>
-    </html>
-  );
+  return children;
 }
