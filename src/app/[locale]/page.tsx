@@ -1,4 +1,4 @@
-import Navbar from "../dashboard/Navbar";
+import Navbar from "../../components/dashboard/Navbar";
 import MotionedDiv from "@/components/common/framer/MotionedDiv";
 import LeftSide from "@/components/leftSide";
 import About from "@/components/middleSide/about";
