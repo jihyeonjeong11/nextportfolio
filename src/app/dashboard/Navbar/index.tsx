@@ -6,16 +6,12 @@ import { montserrat } from '@/components/common/fonts';
 import MotionedDiv from '@/components/common/framer/MotionedDiv';
 
 import * as delays from '@/constants/delays';
-import ThemeSwitcher from '@/app/theme-switcher';
+import ThemeSwitcher from '@/components/theme-switcher';
 import MyDialog from '@/components/common/modal';
+import LocaleSwitcher from '@/components/locale-switcher';
 
 const Navbar = () => {
-  const [mounted, setMounted] = React.useState(false);
   const [isOpen, setIsOpen] = React.useState(false);
-
-  React.useEffect(() => {
-    setMounted(true);
-  }, []);
 
   return (
     <div className="bg-body-color-light dark:bg-body-color w-full shadow-navbar-shadow h-20 lg:h-[12vh] sticky top-0 z-10 px-4">
@@ -29,6 +25,8 @@ const Navbar = () => {
         >
           <ThemeSwitcher />
         </MotionedDiv>
+
+        <LocaleSwitcher />
         <div className="hidden mdl:inline-flex items-center gap-7">
           <ol className="flex text-[17px] gap-7 text-text-light dark:text-text-dark">
             <li>
