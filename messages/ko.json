@@ -48,6 +48,8 @@
     "project4Title": "플라잉캣",
     "project4Content": "고도몰 API와 연동된 React-Native, React 기반 커머셜 플랫폼입니다. 초저가 상품 가격을 한 번에 조회 후 장바구니로 한 번에 구매 가능한 경험을 제공합니다.",
     "project5Title": "PWA-windows",
-    "project5Content": "Windows95를 테마로 현재 제작중인 사이드 프로젝트입니다. React-Rnd 및 react context를 통한 윈도우 인스턴스 관리 및 각종 프로그램 등을 유저가 PWA환경에서 사용할 수 있도록 하는 것이 목표입니다."
+    "project5Content": "Windows95를 테마로 현재 제작중인 사이드 프로젝트입니다. React-Rnd 및 react context를 통한 윈도우 인스턴스 관리 및 각종 프로그램 등을 유저가 PWA환경에서 사용할 수 있도록 하는 것이 목표입니다.",
+    "project6Title": "Nextjs-starter-template",
+    "project6Content": "Web dev Cody라는 유튜버의 오픈 소스 사이드 프로젝트를 클로닝한 프로젝트입니다. 템플릿의 목표는 리액트 + Nextjs 구조의 클린 스트럭쳐 및 쾌적한 개발자 경험을 제공하는데 있습니다."
   }
 }
